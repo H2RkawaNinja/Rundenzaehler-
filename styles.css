@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: #f9f9f9;
+  background-color: #333;
+ 
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+#mainContainer {
+  display: flex;
+  color: black;
+}
+
+#leftContainer {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#runnerForm {
+  margin-bottom: 20px;
+}
+
+#runnerForm label, #totalRounds {
+  margin-right: 10px;
+}
+
+#runnersList, #liveBoard {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #00c5d3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#runnersList li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#liveBoard {
+  flex: 1;
+}
+
+#liveBoard p {
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-bottom: 1px solid #636262;
+  color: black;
+}
+
+#liveBoard p:last-child {
+  border-bottom: none;
+}
+
+/* Neue CSS-Klasse für abgeschlossene Läufer */
+.completed {
+  background-color: #3CB371; /* Grün */
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+/* ... Vorheriger CSS-Code ... */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Zentrieren sowohl horizontal als auch vertikal */
+  margin-bottom: 20px;
+}
+
+#logo {
+  width: 100px; /* Anpassen der Breite je nach Bedarf */
+  height: auto; /* Das Seitenverhältnis des Logos wird beibehalten */
+  margin-right: 10px;
+  
+}
+/* ... Weiterer CSS-Code ... */
+h2 {
+  text-align: center;
+  font-size: small;
+
+}
