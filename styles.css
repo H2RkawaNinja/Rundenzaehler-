@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #333;
+  background-image: url(gta-online-may-18-2048x1152.webp);
+}
+
+h1 {
+  text-align: center;
+  color: #fffefe;
+}
+
+#mainContainer {
+  display: flex;
+}
+
+#leftContainer {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#runnerForm {
+  margin-bottom: 20px;
+  color: #fffefe;
+}
+
+#runnerForm label, #totalRounds {
+  margin-right: 10px;
+}
+
+#runnersList, #liveBoard {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #01aeb4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#runnersList li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button.countButton {
+  margin-right: 5px;
+  flex-shrink: 0;
+}
+
+button.countButton, button.reduceButton {
+  width: 150px;
+}
+
+button.reduceButton {
+  background-color: #f44336;
+}
+
+button.reduceButton:hover {
+  background-color: #d32f2f;
+}
+
+#liveBoard {
+  flex: 1;
+}
+
+#liveBoard p {
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#liveBoard p:last-child {
+  border-bottom: none;
+}
+
+/* Neue CSS-Klasse für abgeschlossene Läufer */
+.completed {
+  background-color: #3CB371;
+  color: white;
+  font-weight: bold;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+}
+#p { 
+  color: #fffefe;
+}
