@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Race of Los Santos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="header">
+    <img src="iKIhH3C3_400x400.jpg" alt="Logo" id="logo">
+  </div>
+  <div id="logoText">
+    <h1>Runden-Zähler</h1>
+  </div>
+  
+  <div id="mainContainer">
+    <div id="leftContainer">
+      <form id="runnerForm">
+        <label for="runnerName">Racers:</label>
+        <input type="text" id="runnerName" required>
+        <button type="submit">Hinzufügen</button>
+        <label for="totalRounds">Gesamt-Runden:</label>
+        <input type="number" id="totalRounds" min="1" value="10">
+        
+        
+      </form>
+      <ul id="runnersList">
+        <!-- Läuferliste wird hier generiert -->
+      </ul>
+    </div>
+    <div id="ControllPanel">
+      <label for="stopwatch">Zeiten stoppen:</label>
+      <input type="checkbox" id="stopwatch">
+      <button id="startRaceButton">Rennen starten</button>
+      <button id="resetRaceButton">Reset</button>
+      
+    </div>
+    <div id="liveBoard">
+      <h2>Live Rundenboard</h2>
+      <div id="liveBoardContent">
+        <!-- Live-Rundenboard wird hier generiert -->
+      </div>
+    </div>
+  </div>
+  <p id="timer"></p>
+  <script src="Untitled-1.js"></script>
+</body>
+</html>
